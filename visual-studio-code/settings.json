@@ -137,40 +137,26 @@
     "workbench.iconTheme": "vscode-icons",
     "workbench.startupEditor": "newUntitledFile",
     /**
-    * -----------------------------------------------------------------------------------------
-    */
-    /**
     * Better Defaults
     **/
     "editor.copyWithSyntaxHighlighting": false,
     "diffEditor.ignoreTrimWhitespace": false,
     // "editor.emptySelectionClipboard": false,
     "workbench.editor.enablePreview": false,
-    // "window.newWindowDimensions": "inherit",
-    // "editor.multiCursorModifier": "ctrlCmd",
+    "window.newWindowDimensions": "inherit",
     // "files.trimTrailingWhitespace": true,
-    // "diffEditor.renderSideBySide": false,
-    // "editor.snippetSuggestions": "top",
-    // "editor.detectIndentation": false,
-    // "window.nativeFullScreen": false,
+    "diffEditor.renderSideBySide": false,
+    "editor.snippetSuggestions": "top",
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     /**
-    * Hide Everything
+    * Minimalistic
     */
     "workbench.activityBar.location": "hidden",
     "workbench.sideBar.location": "right",
     "workbench.editor.showTabs": "none",
+    "workbench.statusBar.visible": true,
     "editor.minimap.enabled": false,
     "editor.lineNumbers": "off",
     "editor.fontFamily": "'Dank Mono', Menlo, Monaco, 'Courier New', monospace",
-    /**
-    * Silence the noice
-    **/
-    // "workbench.activityBar.location": "side",
-    // "workbench.sideBar.location": "right",
-    // "workbench.statusBar.visible": false,
-    // "workbench.editor.showTabs": "none",
-    // "editor.minimap.enabled": false,
-    // "editor.lineNumbers": "off",
 }

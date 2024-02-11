@@ -267,9 +267,4 @@
         "command": "testing.goToNextMessage",
         "when": "editorFocus && testing.isPeekVisible"
     },
-    // resolve issue cmd + .
-    // {
-    //     "key": "cmd+k cmd+i",
-    //     "command": "namespaceResolver.import"
-    // },
 ]
