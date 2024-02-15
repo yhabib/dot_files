@@ -126,7 +126,8 @@
         "function-return-type",
         "typeof",
         "keyof",
-        "tuple-type"
+        "tuple-type",
+        "in-operator-narrowing"
     ],
     "totalTypeScript.hideAllTips": false,
     "totalTypeScript.hideBasicTips": true,
