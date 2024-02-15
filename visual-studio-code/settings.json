@@ -145,7 +145,7 @@
     "workbench.editor.enablePreview": false,
     "window.newWindowDimensions": "inherit",
     // "files.trimTrailingWhitespace": true,
-    "diffEditor.renderSideBySide": false,
+    // "diffEditor.renderSideBySide": false,
     "editor.snippetSuggestions": "top",
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
@@ -157,6 +157,6 @@
     "workbench.editor.showTabs": "none",
     "workbench.statusBar.visible": true,
     "editor.minimap.enabled": false,
-    "editor.lineNumbers": "off",
+    // "editor.lineNumbers": "off",
     "editor.fontFamily": "'Dank Mono', Menlo, Monaco, 'Courier New', monospace",
 }

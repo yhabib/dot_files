@@ -49,17 +49,17 @@
         "command": "-editor.action.toggleScreenReaderAccessibilityMode",
         "when": "accessibilityHelpIsShown"
     },
-    // IMPORTANT like InteliJ
-    {
-        "key": "cmd+e",
-        "command": "workbench.action.showAllEditorsByMostRecentlyUsed"
-    },
     /**
     * Activity Bar
     **/
     {
         "key": "cmd+e",
         "command": "workbench.action.focusActiveEditorGroup"
+    },
+    {
+        "key": "cmd+e",
+        "command": "workbench.action.showAllEditorsByMostRecentlyUsed",
+        "when": "editorTextFocus"
     },
     {
         "key": "cmd+t",
@@ -253,7 +253,7 @@
         "when": "editorTextFocus"
     },
     {
-        "key": "cmd+shift+b",
+        "key": "cmd+alt+b",
         "command": "editor.action.goToReferences",
         "when": "editorTextFocus"
     },
@@ -267,4 +267,22 @@
         "command": "testing.goToNextMessage",
         "when": "editorFocus && testing.isPeekVisible"
     },
+    /*
+    ** COPILOT
+    */
+    {
+        "key": "cmd+i",
+        "command": "github.copilot.terminal.suggestCommand",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+i",
+        "command": "editor.action.inlineSuggest.trigger",
+        "when": "config.github.copilot.inlineSuggest.enable && editorTextFocus && !editorHasSelection && !inlineSuggestionsVisible"
+    },
+    {
+        "key": "cmd+shift+i",
+        "command": "inlineChat.start",
+        "when": "editorFocus && inlineChatHasProvider && !editorReadonly"
+      }
 ]
