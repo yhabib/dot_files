@@ -8,5 +8,3 @@ copy_files:
 commit_changes:
 	git add visual-studio-code/keybindings.json
 	git add visual-studio-code/settings.json
-	git cm 'updates files'
-	git push
