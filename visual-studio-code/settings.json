@@ -133,7 +133,7 @@
     "totalTypeScript.hideBasicTips": true,
     "github.copilot.editor.enableAutoCompletions": false,
     // workbench
-    "workbench.colorTheme": "GitHub Dark High Contrast",
+    "workbench.colorTheme": "GitHub Dark Default",
     "workbench.editor.empty.hint": "hidden",
     "workbench.iconTheme": "vscode-icons",
     "workbench.startupEditor": "newUntitledFile",

@@ -153,17 +153,25 @@
         "when": "editorFocus"
     },
     {
-        "key": "ctrl+h",
-        "command": "workbench.action.navigateLeft",
-        "when": "editorFocus"
-    },
-    {
-        "key": "alt+cmd+right",
+        "key": "cmd+k cmd+right",
         "command": "workbench.action.moveEditorToNextGroup"
     },
     {
-        "key": "alt+cmd+left",
+        "key": "cmd+k cmd+left",
         "command": "workbench.action.moveEditorToPreviousGroup"
+    },
+    {
+        "key": "cmd+k cmd+up",
+        "command": "workbench.action.moveEditorToAboveGroup"
+    },
+    {
+        "key": "cmd+k cmd+down",
+        "command": "workbench.action.moveEditorToBelowGroup"
+    },
+    {
+        "key": "ctrl+h",
+        "command": "workbench.action.navigateLeft",
+        "when": "editorFocus"
     },
     {
         "key": "ctrl+l",
