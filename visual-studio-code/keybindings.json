@@ -121,6 +121,50 @@
         "command": "editor.unfold",
         "when": "editorFocus"
     },
+    {
+        "key": "cmd+up",
+        "command": "editor.action.smartSelect.grow",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+down",
+        "command": "editor.action.smartSelect.shrink"
+    },
+    {
+        "key": "cmd+d up",
+        "command": "cursorMove",
+        "args": {
+            "by": "line",
+            "value": 30,
+            "to": "up"
+        },
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+d down",
+        "command": "cursorMove",
+        "args": {
+            "by": "line",
+            "value": 30,
+            "to": "down"
+        },
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+d cmd+up",
+        "command": "cursorTop",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+d cmd+down",
+        "command": "cursorBottom",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+d cmd+z",
+        "command": "workbench.action.navigateBack",
+        "when": "editorFocus"
+    },
     /**
     * Multi-Cursor
     **/
@@ -144,6 +188,11 @@
     **/
     {
         "key": "ctrl+w",
+        "command": "workbench.action.closeActiveEditor",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+j",
         "command": "workbench.action.joinAllGroups",
         "when": "editorFocus"
     },
@@ -256,6 +305,11 @@
     //     "command": "workbench.action.showAllSymbols"
     // },
     {
+        "key": "cmd+o",
+        "command": "workbench.action.gotoSymbol",
+        "when": "editorTextFocus"
+    },
+    {
         "key": "cmd+b",
         "command": "editor.action.goToImplementation",
         "when": "editorTextFocus"
@@ -292,5 +346,5 @@
         "key": "cmd+shift+i",
         "command": "inlineChat.start",
         "when": "editorFocus && inlineChatHasProvider && !editorReadonly"
-      }
+    }
 ]
