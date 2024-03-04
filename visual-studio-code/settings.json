@@ -95,14 +95,6 @@
     "terminal.integrated.tabs.location": "left",
     "github.copilot.enable": {
         "*": true,
-        "plaintext": false,
-        "markdown": false,
-        "scminput": false,
-        "yaml": true,
-        "javascript": false,
-        "html": false,
-        "javascriptreact": false,
-        "postcss": true
     },
     "editor.bracketPairColorization.enabled": true,
     "security.workspace.trust.untrustedFiles": "open",
@@ -131,7 +123,7 @@
     ],
     "totalTypeScript.hideAllTips": false,
     "totalTypeScript.hideBasicTips": true,
-    "github.copilot.editor.enableAutoCompletions": false,
+    "github.copilot.editor.enableAutoCompletions": true,
     // workbench
     "workbench.colorTheme": "GitHub Dark Default",
     "workbench.editor.empty.hint": "hidden",
@@ -147,7 +139,7 @@
     "window.newWindowDimensions": "inherit",
     // "files.trimTrailingWhitespace": true,
     // "diffEditor.renderSideBySide": false,
-    "editor.snippetSuggestions": "top",
+    "editor.snippetSuggestions": "bottom",
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     /**
@@ -160,4 +152,7 @@
     "editor.minimap.enabled": false,
     // "editor.lineNumbers": "off",
     "editor.fontFamily": "'Dank Mono', Menlo, Monaco, 'Courier New', monospace",
+    // Prefers imports like @/....
+    "typescript.preferences.importModuleSpecifier": "non-relative",
+    "javascript.preferences.importModuleSpecifier": "non-relative",
 }
