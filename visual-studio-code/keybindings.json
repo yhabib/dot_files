@@ -122,48 +122,29 @@
         "when": "editorFocus"
     },
     {
-        "key": "cmd+up",
+        "key": "alt+up",
         "command": "editor.action.smartSelect.grow",
         "when": "editorFocus"
     },
     {
-        "key": "cmd+down",
-        "command": "editor.action.smartSelect.shrink"
-    },
-    {
-        "key": "cmd+d up",
-        "command": "cursorMove",
-        "args": {
-            "by": "line",
-            "value": 30,
-            "to": "up"
-        },
+        "key": "alt+down",
+        "command": "editor.action.smartSelect.shrink",
         "when": "editorFocus"
     },
     {
-        "key": "cmd+d down",
-        "command": "cursorMove",
-        "args": {
-            "by": "line",
-            "value": 30,
-            "to": "down"
-        },
-        "when": "editorFocus"
-    },
-    {
-        "key": "cmd+d cmd+up",
-        "command": "cursorTop",
-        "when": "editorFocus"
-    },
-    {
-        "key": "cmd+d cmd+down",
-        "command": "cursorBottom",
-        "when": "editorFocus"
-    },
-    {
-        "key": "cmd+d cmd+z",
+        "key": "alt+z",
         "command": "workbench.action.navigateBack",
         "when": "editorFocus"
+    },
+    {
+        "key": "shift+alt+up",
+        "command": "editor.action.moveLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+down",
+        "command": "editor.action.moveLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
     },
     /**
     * Multi-Cursor
