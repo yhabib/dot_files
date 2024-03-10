@@ -132,8 +132,13 @@
         "when": "editorFocus"
     },
     {
-        "key": "alt+z",
+        "key": "alt+cmd+left",
         "command": "workbench.action.navigateBack",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+cmd+right",
+        "command": "workbench.action.navigateForward",
         "when": "editorFocus"
     },
     {
@@ -158,6 +163,11 @@
         "key": "cmd+k cmd+d",
         "command": "editor.action.moveSelectionToNextFindMatch",
         "when": "editorFocus && editorHasMultipleSelections"
+    },
+    {
+        "key": "shift+cmd+d",
+        "command": "editor.action.selectHighlights",
+        "when": "editorFocus & editorHasSelection"
     },
     {
         "key": "cmd+right",
