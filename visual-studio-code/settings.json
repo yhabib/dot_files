@@ -94,10 +94,11 @@
     "redhat.telemetry.enabled": true,
     "terminal.integrated.tabs.location": "left",
     "github.copilot.enable": {
-        "*": false,
+        "*": true,
         "plaintext": false,
-        "markdown": false,
-        "scminput": false
+        "markdown": true,
+        "scminput": false,
+        "javascript": false
     },
     "editor.bracketPairColorization.enabled": true,
     "security.workspace.trust.untrustedFiles": "open",
