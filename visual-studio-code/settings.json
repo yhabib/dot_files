@@ -40,7 +40,7 @@
         }
     },
     "[python]": {
-        "editor.defaultFormatter": "ms-python.python",
+        "editor.defaultFormatter": "ms-python.autopep8",
         "editor.formatOnType": true
     },
     "[xml]": {
@@ -149,7 +149,7 @@
     /**
     * Minimalistic
     */
-    "workbench.activityBar.location": "hidden",
+    // "workbench.activityBar.location": "hidden",
     "workbench.sideBar.location": "right",
     "workbench.editor.showTabs": "none",
     "workbench.statusBar.visible": true,

@@ -93,6 +93,10 @@
         "key": "cmd+k cmd+b",
         "command": "workbench.action.toggleSidebarVisibility"
     },
+    {
+        "key": "cmd+k cmd+r",
+        "command": "workbench.view.extension.thunder-client"
+    },
     /**
     * Line Manipulation and Fold/Unfold
     **/
@@ -337,5 +341,9 @@
         "key": "cmd+shift+i",
         "command": "inlineChat.start",
         "when": "editorFocus && inlineChatHasProvider && !editorReadonly"
+    },
+    {
+        "key": "shift+cmd+r",
+        "command": "-workbench.view.extension.thunder-client"
     }
 ]
