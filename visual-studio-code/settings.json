@@ -98,7 +98,7 @@
         "plaintext": false,
         "markdown": true,
         "scminput": false,
-        "javascript": false
+        "javascript": true
     },
     "editor.bracketPairColorization.enabled": true,
     "security.workspace.trust.untrustedFiles": "open",
@@ -149,7 +149,7 @@
     /**
     * Minimalistic
     */
-    // "workbench.activityBar.location": "hidden",
+    "workbench.activityBar.location": "hidden",
     "workbench.sideBar.location": "right",
     "workbench.editor.showTabs": "none",
     "workbench.statusBar.visible": true,
@@ -159,4 +159,6 @@
     // Prefers imports like @/....
     "typescript.preferences.importModuleSpecifier": "non-relative",
     "javascript.preferences.importModuleSpecifier": "non-relative",
+    "prisma.showPrismaDataPlatformNotification": false,
+    "editor.accessibilitySupport": "off",
 }

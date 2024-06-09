@@ -300,13 +300,17 @@
     //     "command": "workbench.action.showAllSymbols"
     // },
     {
-        "key": "cmd+o",
+        "key": "cmd+shift+o",
         "command": "workbench.action.gotoSymbol",
+    },
+    {
+        "key": "cmd+o",
+        "command": "workbench.action.showAllSymbols",
         "when": "editorTextFocus"
     },
     {
         "key": "cmd+b",
-        "command": "editor.action.goToImplementation",
+        "command": "editor.action.revealDefinition",
         "when": "editorTextFocus"
     },
     {
